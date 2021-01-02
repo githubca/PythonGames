@@ -191,9 +191,9 @@ def down(game):
 def left(game):
     print("left")
     # return matrix after shifting left
-    game, done = cover_up(game)
-    game, done = merge(game, done)
-    game = cover_up(game)[0]
+    game, done = cover_up(game)  #move left
+    game, done = merge(game, done) #add up
+    game = cover_up(game)[0] #move left again
     return game, done
 
 
