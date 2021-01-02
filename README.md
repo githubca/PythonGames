@@ -6,6 +6,11 @@ Based on the popular game [2048](https://github.com/gabrielecirulli/2048) by Gab
 
 ![screenshot](img/screenshot.png)
 
+Enhancement:
+    1, bind arrow key (left,right,up,down) event for easy operation;
+    2, add more comments for logic, cover_up is actually move left;
+    3, change grid to 5 for more fun, change font so it fit the screen size;
+
 To start the game, run:
     
     $ python3 puzzle.py
