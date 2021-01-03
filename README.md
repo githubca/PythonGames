@@ -1,12 +1,11 @@
 This is a hobby project.
 Cope the project from below links, and enhance them to make easy operation, or more features.
 
-1:
-
+1: small games
+==========
 http://www.grantjenks.com/docs/freegames/index.html
 
-2:
-2048-python
+2: 2048-python
 ===========
 forked from https://github.com/yangshun/2048-python
 
