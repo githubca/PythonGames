@@ -32,7 +32,7 @@ def move():
     head.move(aim)
 
     if not inside(head) or head in snake:
-        square(head.x, head.y, 9, 'red')
+        square(head.x, head.y, 12, 'red')
         update()
         return
 
@@ -48,13 +48,13 @@ def move():
     clear()
 
     for body in snake:
-        square(body.x, body.y, 9, 'black')
+        square(body.x, body.y, 12, 'black')
 
-    square(food.x, food.y, 9, 'green')
+    square(food.x, food.y, 12, 'green')
     update()
-    ontimer(move, 500)
+    ontimer(move, 200)
 
-setup(420, 420, 370, 0)
+setup(420, 420, 300, 10)
 hideturtle()
 tracer(False)
 listen()
