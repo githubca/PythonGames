@@ -22,7 +22,7 @@ Enhancement:
 
 To start the game, run:
     
-    $ python3 puzzle.py
+    $ python 2048.py
 
 
 Contributors:
