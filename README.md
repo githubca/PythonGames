@@ -27,6 +27,6 @@ To start the game, run:
 
 Contributors:
 ====
-Hanson Chen
+program and poem
 
 
